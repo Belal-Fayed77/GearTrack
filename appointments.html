@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GearTrack | Appointments</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <nav class="sidebar">
+        <h2>GearTrack</h2>
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="garage.html">My Garage</a></li>
+            <li class="active"><a href="appointments.html">Appointments</a></li>
+            <li><a href="history.html">History</a></li>
+            <li class="logout-item"><a href="index.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-view">
+        <header class="view-header">
+            <h1>Upcoming Appointments</h1>
+            <button class="btn-primary">+ Book New Date</button>
+        </header>
+
+        <section class="appointments-list">
+            
+            <div class="appointment-card">
+                <div class="appointment-info">
+                    <h3>Full Engine Checkup</h3>
+                    <p>📅 Thursday, April 15 • 10:00 AM</p>
+                    <p>📍 Alexandria Service Center - Smouha</p>
+                </div>
+                <span class="status-tag">Confirmed</span>
+            </div>
+
+            <div class="appointment-card pending">
+                <div class="appointment-info">
+                    <h3>Wheel Alignment</h3>
+                    <p>📅 Sunday, April 18 • 02:30 PM</p>
+                    <p>📍 Main Garage - Miami</p>
+                </div>
+                <span class="status-tag">Pending</span>
+            </div>
+
+        </section>
+
+        <div class="booking-prompt">
+            <h2>Need a new appointment?</h2>
+            <p>Choose your service and pick a date that suits you.</p>
+            <button class="btn-secondary">Check Availability</button>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
